@@ -1,4 +1,3 @@
-import { SvgIcon } from "@mui/material";
 
 export const projectData = [
   {

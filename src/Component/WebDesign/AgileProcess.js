@@ -2,35 +2,35 @@ import { Grid } from '@mui/material';
 import React from 'react';
 
 
-const data = [
-    {
-      backgroundColor: '#3C4867',
-      width: '260px',
-      height: '162px',
-      padding: '32px',
-      borderRadius: '10px',
-      imgSrc: 'https://www.webbuds.co.uk/wp-content/uploads/2023/05/prcs-ico1.svg',
-      text: 'Kick-off Meeting',
-    },
-    {
-      backgroundColor: '#F7BE00',
-      width: '520px',
-      height: '162px',
-      padding: '32px',
-      borderRadius: '10px',
-      imgSrc: 'https://www.webbuds.co.uk/wp-content/uploads/2023/05/prcs-ico2-1.svg',
-      text: 'Proposal Planning & Submission',
-    },
-    {
-      backgroundColor: '#83C5BE',
-      width: '390px',
-      height: '162px',
-      padding: '32px',
-      borderRadius: '10px',
-      imgSrc: 'https://www.webbuds.co.uk/wp-content/uploads/2023/05/prcs-ico3.svg',
-      text: 'Agreement & Signing',
-    },
-  ];
+// const data = [
+//     {
+//       backgroundColor: '#3C4867',
+//       width: '260px',
+//       height: '162px',
+//       padding: '32px',
+//       borderRadius: '10px',
+//       imgSrc: 'https://www.webbuds.co.uk/wp-content/uploads/2023/05/prcs-ico1.svg',
+//       text: 'Kick-off Meeting',
+//     },
+//     {
+//       backgroundColor: '#F7BE00',
+//       width: '520px',
+//       height: '162px',
+//       padding: '32px',
+//       borderRadius: '10px',
+//       imgSrc: 'https://www.webbuds.co.uk/wp-content/uploads/2023/05/prcs-ico2-1.svg',
+//       text: 'Proposal Planning & Submission',
+//     },
+//     {
+//       backgroundColor: '#83C5BE',
+//       width: '390px',
+//       height: '162px',
+//       padding: '32px',
+//       borderRadius: '10px',
+//       imgSrc: 'https://www.webbuds.co.uk/wp-content/uploads/2023/05/prcs-ico3.svg',
+//       text: 'Agreement & Signing',
+//     },
+//   ];
 
 const AgileProcess = () => {
   const mainStyle = {
@@ -48,21 +48,21 @@ const AgileProcess = () => {
     marginBottom: '0.5rem',
   };
 
-  const colStyle = {
-    padding: '2rem',
-    borderRadius: '10px',
-  };
+  // const colStyle = {
+  //   padding: '2rem',
+  //   borderRadius: '10px',
+  // };
 
-  const iconStyle = {
-    fontSize: '2.5rem',
-    color: 'white',
-  };
+  // const iconStyle = {
+  //   fontSize: '2.5rem',
+  //   color: 'white',
+  // };
 
-  const pStyle = {
-    marginTop: '1.5rem',
-    fontSize: '1.4rem',
-    fontWeight: 700,
-  };
+  // const pStyle = {
+  //   marginTop: '1.5rem',
+  //   fontSize: '1.4rem',
+  //   fontWeight: 700,
+  // };
 
   return (
     <Grid className="p-4" style={mainStyle} sx={{padding: "96px 0"}}>

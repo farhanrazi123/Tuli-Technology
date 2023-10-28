@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { serviceData } from "./constant";
-import { ScrollTrigger } from "gsap/ScrollTrigger"; // Import ScrollTrigger from GSAP
 
 function BusinessApproach() {
   const linksContainerRef = useRef(null);
@@ -26,13 +26,6 @@ function BusinessApproach() {
           });
         }
       });
-
-      // ScrollTrigger.create({
-      //   trigger: links, // Set the correct trigger element here
-      //   start: "top bottom", // Adjust as needed
-      //   toggleActions: "play none none reverse",
-      //   markers: true, // Enable markers for visualization (optional)
-      // });
     });
   };
 

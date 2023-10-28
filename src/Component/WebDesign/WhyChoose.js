@@ -6,7 +6,7 @@ import { icons } from "../Home/constant";
 function WhyChoose() {
   return (
     <section className="p-4">
-      <Grid display={"flex"} spacing={2} >
+      <Grid display={"flex"} >
         <Grid item xs={6}>
           <img
             src="https://www.webbuds.co.uk/wp-content/uploads/2023/05/why-img.jpg"
