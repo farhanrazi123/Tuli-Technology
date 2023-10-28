@@ -3,7 +3,7 @@ import { Grid, Typography } from "@mui/material";
 
 const WebsiteFeatures = () => {
   return (
-    <Grid item xs={12} spacing={2} className="p-4">
+    <Grid item xs={12} className="p-4">
         <Grid item xs={12} gap={2} display={'flex'}>
           <Grid item xs={4} sm={6}>
             <div
